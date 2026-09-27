@@ -11,28 +11,55 @@ Daily Notes: Each directory includes dedicated notes explaining the core concept
 ⚙️ Prerequisites & Setup
 Before getting started, make sure you have python, Ollama installed on your system (Windows or macOS).
 
-## 2. Install Ollama
+## ⚙️ Setup: Ollama & Local Model
 
-Download and install Ollama for your operating system:
+This guide covers the setup required to run the AI Agent Engineering projects using a locally hosted LLM with Ollama.
 
-[Download Ollama](https://ollama.com/)
+2. Install Ollama
 
-Verify the installation:
+Ollama allows you to run LLMs locally on your machine without requiring external API services.
 
-```bash
+Download Ollama
+
+Install Ollama for your operating system:
+
+👉 Download Ollama
+
+After installation, verify that Ollama is available:
+
 ollama --version
 
-### Step 3 — Pull the Local Model
+If the installation was successful, you should see the installed Ollama version.
 
-## 3. Pull the Local Model
+3. Pull & Run the Local Model
 
-This project uses **Qwen3 4B** as the default local model.
+This project uses Qwen3 4B as the default local model.
 
-Pull the model:
+Pull the Model
+
+Open your terminal and run:
 
 ollama pull qwen3:4b
-```
-2. Environment Configuration
+
+This downloads the Qwen3 4B model to your local machine.
+
+Run the Model
+
+Start the model with:
+
+ollama run qwen3:4b
+
+You can now interact with the model directly through the terminal.
+
+Local API
+
+When Ollama is running, it provides an OpenAI-compatible API endpoint:
+
+http://localhost:11434/v1
+
+This endpoint will be used by the Python applications in this repository to communicate with the locally hosted model. 
+
+## Environment Configuration
 Create a .env file in the project root directory and add the following configuration:
 
 Code snippet
