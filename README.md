@@ -24,14 +24,12 @@ ollama --version
 
 ### Step 3 — Pull the Local Model
 
-```markdown
 ## 3. Pull the Local Model
 
 This project uses **Qwen3 4B** as the default local model.
 
 Pull the model:
 
-```bash
 ollama pull qwen3:4b
 ```
 2. Environment Configuration
