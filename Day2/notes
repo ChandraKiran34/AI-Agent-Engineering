@@ -1,0 +1,39 @@
+1) AI models dont remember conversations
+
+This is probably the biggest misconception among beginners.
+Many people think chatgpt or any other AI model automatically remembers everything.
+It doesn't. Every request is independent unless you, the developer send the previous conversation along with the new message.
+
+2) Memory lives in the application
+
+The memory was not created inside the AI model
+It was created inside our python program.
+Our application stored the conversation in a list and sent that list wit every request.
+The AI model simply used the information we provided.
+
+3) Python lists are perfect for conversation history
+
+we used one simple list : 
+messages = []
+Every time someone spoke, we added another message. Nothing more
+Some times the simplest solution is also the best one.
+
+4) Every message has two parts
+
+Each message contains : 
+{
+    "role" : "..",
+    "content" : ".."
+}
+The role tells the model who is speaking
+The content tells the model what was said
+The simple structure is used by almost every modern conversational AI framework
+
+5) Context creates Intelligence
+
+The AI did not suddenly become smarter overnight
+It became more useful because it had more context
+Context gives the idea of awarness what the user is trying to ask and it will answer our questions.
+
+
+So Basically Day2 is a Memory Enabled AI Assistant
