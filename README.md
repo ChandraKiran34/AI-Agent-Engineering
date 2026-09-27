@@ -1,4 +1,4 @@
-🤖 100 Days of AI Agent Engineering
+🤖 AI Agent Engineering
 Welcome to the AI Agent Engineering learning repository! This repo is designed as a structured, day-by-day guide to help you build and understand Agentic AI from the ground up using locally hosted models.
 
 📌 About This Repository
@@ -32,5 +32,5 @@ MODEL=qwen3:4b
 Clone the repository:
 
 Bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone [https://github.com/your-username/your-repo-name.git](https://github.com/ChandraKiran34/AI-Agent-Engineering.git)
+cd AGENTIC-AI
