@@ -11,15 +11,29 @@ Daily Notes: Each directory includes dedicated notes explaining the core concept
 ⚙️ Prerequisites & Setup
 Before getting started, make sure you have python, Ollama installed on your system (Windows or macOS).
 
-1. Install & Run the Model
-Open your terminal and run the following commands to pull and start the model:
+## 2. Install Ollama
 
-Bash
-# Pull the Qwen model
+Download and install Ollama for your operating system:
+
+[Download Ollama](https://ollama.com/)
+
+Verify the installation:
+
+```bash
+ollama --version
+
+### Step 3 — Pull the Local Model
+
+```markdown
+## 3. Pull the Local Model
+
+This project uses **Qwen3 4B** as the default local model.
+
+Pull the model:
+
+```bash
 ollama pull qwen3:4b
-
-# Run the model locally
-ollama run qwen3:4b
+```
 2. Environment Configuration
 Create a .env file in the project root directory and add the following configuration:
 
