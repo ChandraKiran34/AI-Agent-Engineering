@@ -9,12 +9,9 @@ client = OpenAI(base_url=os.getenv("BASE_URL"), api_key=os.getenv("API_KEY"))
 print("=" * 40)
 print("           My AI Assistant")
 print("=" * 40)
-messages = [
-    {
-        "role" : "system",
-        "content" : "you are a helpful assistant"
-    }
-]
+
+messages = []
+
 while True:
     user_input = input("\nYou : ")
 

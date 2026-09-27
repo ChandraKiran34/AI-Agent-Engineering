@@ -1,0 +1,37 @@
+## what is a system prompt ?
+
+A system prompt is a set of instructions that tells the AI.
+It gives the direction. It controls behaviour of the answer.
+
+Good prompts are specific. clearer th instructions better the results.
+
+Who are you?
+How should you behave?
+What tone should you use?
+what should you avoid?
+who is your audience?
+
+Unlike user messages, the system prompt is not part of the conversation.
+Instead it acts like a set of permanent instructions that guides every response.
+
+Think of it as AI's job description
+
+## Example : 
+
+Imagine you have hired a new customer support executive.
+On the first day, you dont simply say:
+"Answer customer questions"
+
+You also give instructions such as :
+Be polite
+Dont argue with customers
+Use simple language
+If you dont know the answer, admit it honestly
+
+Based on the different situations we can choose how our AI model should behave.
+
+We are not building new projects everyday. We are continously improving the same assistant.
+Thats exaclty how the software evolves.
+
+Day3 is about Multi role AI assistant
+
